@@ -2,17 +2,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.stylefeng</groupId>
-    <artifactId>guns-parent</artifactId>
+    <artifactId>loiter-parent</artifactId>
     <version>1.0.0</version>
 
-    <name>guns-parent</name>
+    <name>loiter-parent</name>
     <packaging>pom</packaging>
 
     <modules>
-        <module>guns-admin</module>
-        <module>guns-core</module>
-        <module>guns-rest</module>
-        <module>guns-generator</module>
+        <module>admin</module>
+        <module>core</module>
+        <module>rest</module>
+        <module>generator</module>
     </modules>
 
     <parent>
@@ -48,12 +48,12 @@
         <dependencies>
             <dependency>
                 <groupId>com.stylefeng</groupId>
-                <artifactId>guns-generator</artifactId>
+                <artifactId>generator</artifactId>
                 <version>${guns.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.stylefeng</groupId>
-                <artifactId>guns-core</artifactId>
+                <artifactId>core</artifactId>
                 <version>${guns.version}</version>
             </dependency>
 

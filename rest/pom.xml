@@ -4,16 +4,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.stylefeng.guns</groupId>
-    <artifactId>guns-rest</artifactId>
+    <artifactId>rest</artifactId>
     <version>0.0.1</version>
     <packaging>jar</packaging>
 
-    <name>guns-rest</name>
+    <name>rest</name>
     <description>guns REST服务器</description>
 
     <parent>
         <groupId>com.stylefeng</groupId>
-        <artifactId>guns-parent</artifactId>
+        <artifactId>loiter-parent</artifactId>
         <version>1.0.0</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -34,7 +34,7 @@
         </dependency>
         <dependency>
             <groupId>com.stylefeng</groupId>
-            <artifactId>guns-core</artifactId>
+            <artifactId>core</artifactId>
         </dependency>
         <dependency>
             <groupId>log4j</groupId>

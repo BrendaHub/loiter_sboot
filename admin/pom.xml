@@ -4,14 +4,14 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.stylefeng</groupId>
-        <artifactId>guns-parent</artifactId>
+        <artifactId>loiter-parent</artifactId>
         <version>1.0.0</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>guns-admin</artifactId>
-    <name>guns-admin</name>
-    <description>guns 的spring boot版本</description>
+    <artifactId>admin</artifactId>
+    <name>admin</name>
+    <description>spring boot版本</description>
 
     <packaging>jar</packaging>
 
@@ -19,11 +19,11 @@
 
         <dependency>
             <groupId>com.stylefeng</groupId>
-            <artifactId>guns-core</artifactId>
+            <artifactId>core</artifactId>
         </dependency>
         <dependency>
             <groupId>com.stylefeng</groupId>
-            <artifactId>guns-generator</artifactId>
+            <artifactId>generator</artifactId>
         </dependency>
 
         <!--spring boot依赖-->
